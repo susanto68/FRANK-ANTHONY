@@ -86,11 +86,10 @@ main {
   gap: 18px;
   margin-top: 14px;
   padding: 12px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: rgba(255, 252, 245, 0.82);
-  box-shadow: 0 16px 44px rgba(55, 35, 17, 0.12);
-  backdrop-filter: blur(18px);
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
 }
 
 .brand,
